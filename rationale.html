@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <link href="http://fonts.googleapis.com/css?family=Exo:900" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/bootstrap.css" rel="stylesheet"/>
+    <link href="assets/css/sb-admin.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css"/>
+    <title>UpStage | Portfolio 2015</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">UpStage 2015</a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav side-nav">
+            <li><a href="index.html"><i class="icon-home"></i> Overview</a></li>
+            <li><a href="planning.html"><i class="icon-bar-chart"></i> Planning</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-comments"></i> Communication <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="communication-team.html"><i class="icon-group"></i> Team</a></li>
+                <li><a href="communication-supervisor.html"><i class="icon-user"></i> Supervisor</a></li>
+                <li><a href="communication-community.html"><i class="icon-group"></i> Client & Community</a></li>
+              </ul>
+            </li>
+            <li class="active"><a href="rationale.html"><i class="icon-edit"></i> Rationale</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-desktop"></i> Activities <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="development-technical.html"><i class="icon-code"></i> V3 Maintenance</a></li>
+                <li><a href="development-collaboration.html"><i class="icon-sitemap"></i> Proof of Concept</a></li>
+              </ul>
+            </li>
+            <li><a href="quality-assurance.html"><i class="icon-check"></i> Quality Assurance</a></li>
+            <li><a href="deliverables.html"><i class="icon-file-alt"></i> Deliverables</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right navbar-user">
+            <li class="dropdown messages-dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-envelope"></i> Contact Team <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+		<li class="dropdown-header">AUT UpStage Team 2015</li>
+                <li class="message-preview">
+                  <a href="mailto:pdy2956@aut.ac.nz">
+                    <span class="avatar"><img src="assets/img/Charlotte.jpg"></span>
+                    <span class="name">Alyssa Byun</span>
+                    <span class="message">fdr2562@aut.ac.nz</span>
+                  </a>
+                </li>
+                <li class="divider"></li>
+                <li class="message-preview">
+                  <a href="mailto:pbq6275@aut.ac.nz">
+                    <span class="avatar"><img src="assets/img/Yue.jpg"></span>
+                    <span class="name">Siatua Uilia</span>
+                    <span class="message">pbq6275@aut.ac.nz</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div id="page-wrapper">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1>Rationale</h1>
+            <ol class="breadcrumb">
+              <li><a href="index.html"><i class="icon-home"></i> UpStage</a></li>
+              <li><i class="icon-edit"></i> Rationale</li>
+            </ol>
+            <h2>Project Rationale</h2>
+			<div class="panel panel-success">
+				<div class="panel-heading">
+					<h3 class="panel-title">Project Proposal</h3>
+				</div>
+			    <div class="panel-body">
+					<h3>The existing system</h3>
+					<p>Since UpStage has been developed by approximately 40 AUT students over many years, the functionalities for this application have been improved. While it provides users more functionality, the internal structure of this application became untidy and broken. Therefore, it is difficult for UpStage developers to read and understand the code written by the past developers, and also it is difficult to extend the code further as additional code will make it unclean and cause bugs and instability in the software.</p>
+					<p>Another issue that the existing application has is that it is not operational on mobile devices. Since the smartphones and tablets were introduced and steadily growing, the software that is easy to be accessed by mobile devices is expected and preferred by users. However, the UpStage uses Flash and Flash does not work on mobile devices.</p>
+					<h3>Why this project is needed?</h3>
+					<p>The development team believes that there needs a development of a new UpStage as we will not be able to extend the existing application. Continuous developing on the existing UpStage will increase the possibility for more malfunctions. The new UpStage should be defect free. If the known defects of the existing application were the errors that could be easily fixed to enable it to perform as a new system, we would choose to just maintain and repair the existing structures. However, the development of a new UpStage should resolve all the biggest issues and problems of existing UpStage. During the development of the new UpStage any aspects which benefit maintaining the existing version might be applied, but the main focus will be on developing a new software that reflects the needs of the uses and builds on the possibilities of current coding languages.</p>
+					<p>The new UpStage must be still web-based and provides the same functionality but it should be a mobile-friendly application. The spaghetti code of the existing system must not be reused. The internal structure should be tidily redesigned. </p>
+					<a href="Documents/Deliverables/Project Proposal v2.1.docx" target="_blank" role="button" class="btn btn-success">View Full Document</a>
+				</div>
+			</div>
+			<h2>The New UpStage</h2>
+			<div class="panel panel-success">
+				<div class="panel-heading">
+					<h3 class="panel-title">Software Architecture</h3>
+				</div>
+			    <div class="panel-body">
+					<h3>Why did we choose Event-driven and MVC?</h3>
+					<p>Using the right architecture can greatly increase the success rate of a software development project. Not only will it make the code more structured and tidy, it can also reduce potential problems such as coupling. However, not all architecture patterns are suitable for UpStage, and so the project team decided to investigate several options to try and evaluate which architecture would work best for the project.</p>
+					<p>We have researched several software architectures including Monolithic and Naked Objects, but each of these architectures could not be the one of the candidates for UpStage architecture investigation. This is because that the architectures such as Monolithic and Naked Objects are relatively harder to maintain as they do not separate the different parts of the code. This can make it hard to maintain the code will grow larger and larger and get overwhelming. Also, it will be hard to locate as something that is broken in another feature can affect the feature being tested.</p>
+					<p>The architectures we focused are Model-View-Controller (MVC from here on), Microservices, and Event-Driven. They each have their own advantages and disadvantages, and we found that making use of more than one architecture pattern will be more beneficial to the project, as they can amplify each other’s strengths while covering their weaknesses. The two architecture patterns we think is most suitable for UpStage are MVC and Event-Driven.</p>
+					<p>MVC excels in all of the criteria we have set. It divides the system into 3 main components; the Model, where the data (i.e. media files, user information, etc.) is stored and processed, the View, which handles the output of the data that is seen by the user, and the Controller, which handles user input and tells the Model and View what to do or change. This ensures that separation of concern is in place and makes it easier to take a modular approach.</p>
+					<p>In terms of maintainability, Microservices and Event-Driven separates the services/features, which makes them maintainable without touching other classes.</p>
+					<p>In the same vein, the two architecture patterns are also more testable. If something goes wrong or a bug pops up, the source will be in the feature being tested, making it easier to locate.</p>
+					<p>Microservices and Event-Driven are safer as they ensure that an existing feature is not broken by the addition of a new feature. The disadvantage is that features that use parts of another feature have to be handled carefully, and both halves of the feature have to be updated.</p>
+					<p>Both Microservices and Event-Driven can be integrated with MVC for UpStage, but the project team feels that Event-Driven is easier to learn and use. Microservices will require the team to first decide which parts of UpStage is a service, and then create a middle layer which can call the appropriate service when needed. For Event-Driven, there is no middle layer, which makes it less abstracted and easier to use.</p>
+					<a href="Documents/Deliverables/Software Architecture Investigation - v3.docx" target="_blank" role="button" class="btn btn-success">View Full Document</a>
+				</div>
+			</div>
+			<div class="panel panel-success">
+				<div class="panel-heading">
+					<h3 class="panel-title">Programming Language</h3>
+				</div>
+			    <div class="panel-body">
+					<h3>Why did we choose Java?</h3>
+					<p>Before the project team starts developing the new UpStage, we need to decide which programming language to use for developing it. The existing UpStage has been developed with Python. The clients have said that the team does not need to stick with Python for the new UpStage. They will be satisfied as long as the team completes this project and delivers a high quality product. All team members are familiar with Java as BCIS students in AUT are taught programming in Java, one of them is used to C# through her work experience and some of them knows a little bit of Python as they have been working on the maintenance of the existing UpStage. All members might want to use the programming language they are most familiar with, but what we need to consider is whether it is the best programming language that is suitable to generate the required product with good quality.</p>
+					<p>Each team member has chosen one programming language and researched on it to find out its advantages and disadvantages based on several criteria we have decided, so that we can decide which language is suitable for the new UpStage. The researched languages are Java, C#, Python and Node.js. Each of these has its advantages and disadvantages, but we want to discuss why we should use Java and how it will work for UpStage.</p>
+					<p>Java is an open source programming language which follows the Write Once, Run Anywhere (WORA) philosophy. It is platform independent, and code written in Java can run on any platform once compiled. This is a big advantage as UpStage needs to be able to run on common platforms such as Windows and Linux, and mobile devices. As UpStage is a web-based application used for online performances, the performers’ performance must be seen by the audience immediately without a page refresh. A technology that can make real-time web applications is required for UpStage and Node.js is a technology commonly used for developing real-time web applications. Of course, other programming languages also have tools that provide real-time function such as Spring for Java, twisted for Python or SignalR for C#.</p>
+					<p>Ease of testing is a big part of the reason we chose Java. Java has access to powerful testing tools such as Junit, while C# has access to an excellent IDE with powerful debugging tools in Visual Studio. Python has plug-ins for existing IDEs such as PyDev for the eclipse IDE. They allow testing of Python code. Successfully testing Node.js code requires getting and learning how to use 4 components, namely the testing framework, an assertion library, stubs and a module control tool. This is unnecessarily complicated, which is something we want to avoid.</p>
+					<p>Learnability is another factor to consider. Node.js is written in JavaScript, which is a relatively simple language to learn. Some of the papers taught at AUT also use JavaScript, which means it is likely that current and future team members have some knowledge on JavaScript already, and thus reduce the amount of upskilling needed. The front-end of the current UpStage is also written in JavaScript, which further increases its advantages. Team members should already be familiar with Java as it is the main language taught in AUT, so it also requires minimal upskilling. Python is a required learning regardless of the language we decide to use, as the current UpStage uses Python, and it needs to be maintained. However, for future team members, when the current UpStage no longer needs to be maintained, Python will no longer have this advantage. C# requires the most upskilling compared to the other 3 languages, as it is not taught in AUT.</p>
+					<p>In terms of performance, Node.js is ideal as it is relatively lightweight, unlike Java and C#. It is also faster than those languages, because it does not utilize blocking threads and thus do not have too much downtime. Also, unlike Python which is interpreted during runtime, it does all processing beforehand, thus ensuring that performance is consistent during runtime. While Java can be faster in certain cases, it is prone to inconsistent performance as classes are only loaded when first referenced, or garbage collection can happen at random times, which can cause performance spikes. Node.js also has non-blocking I/O which ensures smooth performance during runtime. However, this will only come into play when an extremely large amount of data needs to be process, which will not happen with UpStage.</p>
+					<p>Java is also open-source and available on all popular platforms, including Linux which is a requirement of UpStage. Unlike C#, which was designed to primarily work on the Windows platform, Java is compatible with most browsers and mobile platforms by default, meaning there is less work that needs to be done in making it compatible with various platforms.</p>
+					<p>There are other advantages we did not mention here but it is worth to choose with these reasons. As developers ideally want to create small and fast micro-services that are easy to maintain, Java is a good choice for its familiarity and testability. It will help the team make a great application that is a good quality and easy to maintain. Node.js can still potentially be used for certain parts of UpStage if needed, particularly parts which require consistently high performance or do not require rigorous testing, but Java is the main language that will be used.</p>
+					<a href="Documents/Deliverables/Programming Languages Investigation -v3.1.docx" target="_blank" role="button" class="btn btn-success">View Full Document</a>
+				</div>
+			</div>
+			<div class="panel panel-success">
+				<div class="panel-heading">
+					<h3 class="panel-title">Data Storage</h3>
+				</div>
+			    <div class="panel-body">
+					<h3>Why did we choose JSON?</h3>
+					<p>Any comparison of data storages depends heavily on the data that needs to be stored. The data storage of UpStage will not have to handle large volume of data within the system as mentioned in the introduction. This considered, storing data into a relational database is not a good way to store the persistent data of our system as our research shows that the relational database is more suitable for a large volume of data comparing to XML or JSON.</p>
+					<p>We narrowed the candidates for the data storage of UpStage to two types; XML and JSON. Russo (2014) illustrates that the usage of JSON will increase more than the usage of XML in near future as people is moving away from a legacy technology like XML into a new domain like JSON. That is because there are few major factors from both the human and machine side; the first is ease of use. Both XML and JOSN are excellent examples of human readable languages, but KVPs are another major improvement found in JSON compared to XML.</p>
+					<p>Although the UpStage data storage will not have to handle a large sized data, it still only requires a lightweight data exchange language. Russo (2014) also provides an evidence that the JSON code contains less characters than the XML code (30% increase in data sent in the XML – meaning additional costs). Also, JSON allows data to be transferred and would be faster than XML solutions because the compact encoding allows for much smaller data to be transferred (Haq, Khan & Hussain, 2015).</p>
+					<p>In terms of security, JSON is easily serialised language while XML is not, JSON has stronger security. Therefore, JSON became a good support as an alternative to XML these days (Haq, Khan & Hussain, 2015).</p>
+					<a href="Documents/Deliverables/Data Storage Investigation - v2.docx" target="_blank" role="button" class="btn btn-success">View Full Document</a>
+				</div>
+			</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+  </body>
+</html>
